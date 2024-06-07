@@ -19,7 +19,7 @@ PAGES = {
     'News Listings' : moneycontrolNewsScrape,
 }
 
-c1, c2, c3 = st.beta_columns((3, 1, 3))
+c1, c2, c3 = st.columns((3, 1, 3))
 c2.image(show_logo(), width=150)
 st.markdown('---')
 st.subheader('Tools')
