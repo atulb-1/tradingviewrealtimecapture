@@ -14,7 +14,7 @@ def tv_headers():
 # Then create a connection to the tunnel
 def newSession():
     ws = create_connection(
-        'wss://data.tradingview.com/socket.io/websocket',
+        'wss://prodata.tradingview.com/socket.io/websocket',
         headers=tv_headers()
     )
     session = generateSession()
